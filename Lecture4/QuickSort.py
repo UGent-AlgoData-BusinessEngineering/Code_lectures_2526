@@ -24,7 +24,7 @@ def partition(lst, first, last):
 
         # Swap two elements in the list
         if high > low:
-            lst[high], lst[low] = lst[low], lst[low]
+            lst[high], lst[low] = lst[low], lst[high]
 
     while high > first and lst[high] >= pivot:
         high -= 1
